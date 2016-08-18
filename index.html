@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="">
+    <meta name="robots" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+    
+    <!-- Add the router library -->
+    <script src="https://code.angularjs.org/2.0.0-beta.16/router.dev.js"></script>
+    <link rel="stylesheet" href="../style.css">
+
+
+    <body ng-app="BlankApp" ng-cloak>
+
+        <div layout="column" layout-align="center stretch">
+            <div class="one">
+                <div class="logo">logo </div>
+                <md-menu>
+                    <i class="material-icons"></i>
+                    <button ng-click="$mdOpenMenu()">
+                        <a>#My site</a>
+                    </button>
+                    <md-button ng-click="$mdOpenMenu()">New action</md-button>
+                    <md-button ng-click="$mdOpenMenu()">New action</md-button>
+                    <md-button ng-click="$mdOpenMenu()">New action</md-button>
+                    <md-button ng-click="$mdOpenMenu()">New action</md-button>
+                    <md-button ng-click="$mdOpenMenu()">New action</md-button>
+                    <md-button ng-click="$mdOpenMenu()">New action</md-button>
+                    <md-button ng-click="$mdOpenMenu()">New action</md-button>
+                    <md-menu-content>
+
+                    </md-menu-content>
+                </md-menu>
+
+                <div layout=“row " layout-align="space-around center stretch " layout-padding layout-margin">
+                    <div class=“flex=40” id="mid-blockone">mid-blockone</div>
+
+                    <div class=“flex=60”>mid-blockthree</div>
+
+                </div>
+                <div class="two">
+                    <div layout=“row"></div>
+  
+    <div flex>First item in row</div>
+    <div flex="20">Second item in row</div>
+  </div>
+  <div layout="column ">
+    <div flex="66">First item in column</div>
+    <div flex="33">Second item in column</div>
+  </div>
+</div>
+    <div layout=“row" layout-align="center stretch">
+                    </div>
+
+                    <footer>
+                        <div layout="row" layout-align=" center end" /div>
+                            <div flex id="flex-1">First item in row</div>
+                            <div flex id="flex-2">Second item in row</div>
+                            <div flex id="flex-3">third item in row</div>
+                            <div flex id="flex-4">forth item in row</div>
+                    </footer>
+                    </div>
+
+
+                    <!-- Angular Material requires Angular.js Libraries -->
+                    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+                    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+                    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+                    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+
+                    <!-- Angular Material Library -->
+                    <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+                    <script src="http://angular-md.js"> </script>
+                    
+                    <!-- Your application bootstrap  -->
+                    <script type="text/javascript">
+                        angular.module('BlankApp', ['ngMaterial']);
+                    </script>
+
+    </body>
+
+</html>
+
+<!--
+Copyright 2016 Google Inc. All Rights Reserved. 
+Use of this source code is governed by an MIT-style license that can be in foundin the LICENSE file at http://material.angularjs.org/license.
+-->
